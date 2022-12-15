@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tubes">
+
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application
+        android:name=".NotesApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logotumbuh"
+        android:label="Tumbuh"
+        android:roundIcon="@drawable/logotumbuh"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tubes"
+        tools:targetApi="31"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".QuestionModel"
+            android:exported="false" />
+        <activity
+            android:name=".activity_start"
+            android:label="activitystart"
+            android:exported="false" />
+        <activity
+            android:name=".activity_result"
+
+            android:exported="false" />
+        <activity
+            android:name=".Quiz"
+            android:exported="false" />
+
+        <receiver
+            android:name=".Notification"
+            android:enabled="true" />
+
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FeedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Notes"
+            android:exported="false"
+            android:label="Notes" />
+        <activity
+            android:name=".Reminder"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:label="Home" />
+        <activity
+            android:name=".Pomodoro"
+            android:exported="false"
+            android:label="Pomodoro" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false"
+            android:label="SignUpActivity" />
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false"
+            android:label="SignInActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

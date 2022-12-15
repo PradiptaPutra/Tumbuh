@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Reminder"
+    android:background="@drawable/reminderbg"
+    android:id="@+id/reminderPage">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="180dp"
+        app:boxStrokeColor="@color/black"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:textColor="@color/black"
+            android:textColorHint="@color/green"
+            android:id="@+id/titleET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="title" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        app:boxStrokeColor="@color/black"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/messageET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="message" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp">
+
+        <DatePicker
+            android:background="@color/green"
+            android:id="@+id/datePicker"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:layout_gravity="center"
+            android:scaleY="0.7"
+            android:scaleX="0.7"
+            android:layout_marginLeft="-30dp"
+            android:layout_marginRight="-30dp"
+            />
+        <TimePicker
+
+            android:background="@color/green"
+            android:id="@+id/timePicker"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner"
+            android:layout_gravity="center"
+            android:scaleY="0.7"
+            android:scaleX="0.7"
+            android:layout_marginLeft="-30dp"
+            android:layout_marginRight="-30dp"/>
+    </LinearLayout>
+
+    <Button
+        android:background="@drawable/mainbutton"
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:text="schedule notification" />
+
+</LinearLayout>

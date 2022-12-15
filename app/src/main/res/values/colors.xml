@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="lightGrey">#C4C4C4</color>
+    <color name="bluemenu">#302E43</color>
+
+    <color name="bluebg">#1F1F39</color>
+    <color name="bluemotivation">#CFECFE</color>
+
+    <color name="huruf">#4C63AE</color>
+
+
+    //new color ui dan ux
+    <color name="maingreen">#11998E</color>
+    <color name="scndgreen">#38EF7D</color>
+    <color name="green">#00C167</color>
+    <color name="red">#F12848</color>
+    <color name="orange">#F2994E</color>
+    <color name="lightgreen">#D9F6E8</color>
+</resources>
