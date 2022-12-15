@@ -62,6 +62,7 @@
         app:fabCradleVerticalOffset="10dp">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
+
             android:background="@color/white"
             app:itemIconTint="@color/black"
             android:id="@+id/bottom_navigation"
@@ -73,6 +74,7 @@
     </com.google.android.material.bottomappbar.BottomAppBar>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
