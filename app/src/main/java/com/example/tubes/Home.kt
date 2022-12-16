@@ -39,6 +39,7 @@ class Home : AppCompatActivity() {
             val intent = Intent(this,Notes::class.java)
             startActivity(intent)
 
+
         }
 
         val itemClickListener2 = findViewById<BottomNavigationItemView>(R.id.pomodoro)

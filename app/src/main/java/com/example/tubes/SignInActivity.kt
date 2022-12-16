@@ -1,11 +1,13 @@
 package com.example.tubes
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.tubes.databinding.ActivitySignInBinding
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
+
 
 class SignInActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignInBinding
@@ -55,8 +57,8 @@ class SignInActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
 
-        if(firebaseAuth.currentUser != null){
-            val intent = Intent(this, Home::class.java)
+        if(firebaseAuth.currentUser == null){
+            val intent = Intent(this,Home::class.java)
             startActivity(intent)
             finish()
         }

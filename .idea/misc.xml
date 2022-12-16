@@ -8,6 +8,7 @@
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/drawable/ic_home.xml" value="0.163" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/drawable/ic_quiz.xml" value="0.1" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/drawable/ic_reminder.xml" value="0.251" />
+        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/drawable/layout_bg.xml" value="0.2" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/drawable/option_bg.xml" value="0.1" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/drawable/roundedbutton.xml" value="0.1" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/drawable/selector.xml" value="0.1" />
@@ -21,12 +22,12 @@
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_pomodoro.xml" value="0.25" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_question_model.xml" value="0.2866847826086957" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_quiz.xml" value="0.33" />
-        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_reminder.xml" value="0.18" />
+        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_reminder.xml" value="0.25" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_result.xml" value="0.33" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
-        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
-        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_start.xml" value="0.18" />
+        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_splash_screen.xml" value="0.4" />
+        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_start.xml" value="0.1" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/fragment_addeditnote.xml" value="0.22" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/fragment_home.xml" value="0.2866847826086957" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/fragment_notes.xml" value="0.22" />
