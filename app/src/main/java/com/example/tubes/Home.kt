@@ -34,12 +34,11 @@ class Home : AppCompatActivity() {
             val intent = Intent(this, Home::class.java)
             startActivity(intent)
         }
+
         val itemClickListener = findViewById<BottomNavigationItemView>(R.id.notes)
         itemClickListener.setOnClickListener{
             val intent = Intent(this,Notes::class.java)
             startActivity(intent)
-
-
         }
 
         val itemClickListener2 = findViewById<BottomNavigationItemView>(R.id.pomodoro)
@@ -58,8 +57,6 @@ class Home : AppCompatActivity() {
         itemClickListener4.setOnClickListener{
             val intent = Intent(this,Reminder::class.java)
             startActivity(intent)
-
-
         }
 
     }

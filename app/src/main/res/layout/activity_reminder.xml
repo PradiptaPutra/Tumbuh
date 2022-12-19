@@ -55,29 +55,30 @@
             android:id="@+id/datePicker"
 
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="226dp"
             android:layout_gravity="center"
             android:layout_marginLeft="-30dp"
             android:layout_marginRight="-30dp"
             android:layout_weight="1"
-            android:background="@color/green"
+            android:background="@drawable/smallbg"
             android:calendarViewShown="false"
             android:datePickerMode="spinner"
             android:scaleX="0.7"
             android:scaleY="0.7" />
+
         <TimePicker
 
-            android:background="@color/green"
             android:id="@+id/timePicker"
             android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:timePickerMode="spinner"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:scaleY="0.7"
-            android:scaleX="0.7"
             android:layout_marginLeft="-30dp"
-            android:layout_marginRight="-30dp"/>
+            android:layout_marginRight="-30dp"
+            android:layout_weight="1"
+            android:background="@drawable/smallbg"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:timePickerMode="spinner" />
     </LinearLayout>
 
     <Button
@@ -89,5 +90,7 @@
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
         android:text="schedule notification" />
+
+
 
 </LinearLayout>

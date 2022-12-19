@@ -6,6 +6,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.tubes.databinding.ActivityReminderBinding
+import com.google.android.material.bottomnavigation.BottomNavigationItemView
 
 import java.util.*
 
@@ -22,6 +23,10 @@ class Reminder : AppCompatActivity()
 
         createNotificationChannel()
         binding.submitButton.setOnClickListener { scheduleNotification() }
+
+
+
+
     }
 
     private fun scheduleNotification()

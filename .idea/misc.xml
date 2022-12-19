@@ -15,25 +15,27 @@
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/drawable/soild_green.xml" value="0.1" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_dashboard.xml" value="0.3625" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_feed.xml" value="0.28076923076923077" />
-        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_home.xml" value="0.12575757575757576" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_notes.xml" value="0.22" />
+        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_notes.xml" value="0.2" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_pomodoro.xml" value="0.25" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_question_model.xml" value="0.2866847826086957" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_quiz.xml" value="0.33" />
-        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_reminder.xml" value="0.25" />
+        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_reminder.xml" value="0.33" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_result.xml" value="0.33" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_splash_screen.xml" value="0.4" />
-        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_start.xml" value="0.1" />
+        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/activity_start.xml" value="0.15" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/fragment_addeditnote.xml" value="0.22" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/fragment_home.xml" value="0.2866847826086957" />
-        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/fragment_notes.xml" value="0.22" />
+        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/fragment_notes.xml" value="0.33" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/layout/item_notes.xml" value="0.22" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/menu/bottom_nav.xml" value="0.33" />
         <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
+        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/menu/bottom_nav_menu_home.xml" value="0.1287037037037037" />
+        <entry key="..\:/Users/Pradipta Putra/AndroidStudioProjects/TubesPAB/Tubes/app/src/main/res/menu/bottom_nav_menu_reminder.xml" value="0.1287037037037037" />
       </map>
     </option>
   </component>

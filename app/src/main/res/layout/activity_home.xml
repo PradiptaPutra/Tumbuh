@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="245dp"
         android:textColor="@color/black"
         android:text="Date"
         android:textSize="20sp"
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:layout_marginTop="230dp"
+        android:layout_marginTop="220dp"
         android:layout_marginLeft="50dp"
         android:textSize="15sp"/>
 
