@@ -33,13 +33,15 @@ class FeedActivity : AppCompatActivity() {
         binding = ActivityFeedBinding.inflate(layoutInflater)
         setContentView(binding.root)
         // Receive Extras
-        studyMinute = intent.getIntExtra("study", 0) * 60 * 1000
-        breakMinute = intent.getIntExtra("break", 0) * 60 * 1000
-        roundCount = intent.getIntExtra("round", 0)
+        studyMinute = intent.getIntExtra("study", 10) * 60 * 1000
+        breakMinute = intent.getIntExtra("break", 5) * 60 * 1000
+        roundCount = intent.getIntExtra("round", 4)
         // Set Rounds Text
         binding.tvRound.text = "$mRound/$roundCount"
         //Start Timer
         setRestTimer()
+
+
         // Reset Button
         binding.ivStop.setOnClickListener {
             resetOrStart()
