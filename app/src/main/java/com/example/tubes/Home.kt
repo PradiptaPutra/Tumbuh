@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 
 import androidx.fragment.app.Fragment
@@ -56,6 +57,11 @@ class Home : AppCompatActivity() {
         val itemClickListener4 = findViewById<BottomNavigationItemView>(R.id.reminder)
         itemClickListener4.setOnClickListener{
             val intent = Intent(this,Reminder::class.java)
+            startActivity(intent)
+        }
+        val itemClickListener5 = findViewById<ImageView>(R.id.profile)
+        itemClickListener5.setOnClickListener{
+            val intent = Intent(this,SignUpActivity::class.java)
             startActivity(intent)
         }
 

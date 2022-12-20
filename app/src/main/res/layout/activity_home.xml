@@ -19,6 +19,14 @@
         android:textSize="25sp"
         android:textStyle="bold" />
 
+    <ImageView
+
+        android:id="@+id/profile"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/profile" />
 
     <TextView
         android:id="@+id/text_view_date"
@@ -88,7 +96,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="245dp"
-        android:layout_marginTop="390dp"
+        android:layout_marginTop="375dp"
         android:orientation="vertical"
 
         tools:context=".Horizontal_ScrollView">
@@ -102,7 +110,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
                 <androidx.cardview.widget.CardView
